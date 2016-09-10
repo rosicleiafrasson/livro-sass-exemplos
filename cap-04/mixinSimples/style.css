@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  width: 800px;
+  padding: 30px; }
+
+.card {
+  background: white;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  width: 600px; }
+  .card-titulo {
+    padding: 5px;
+    color: white;
+    background: #3E4FB2;
+    font-size: 40px;
+    text-align: center; }
+  .card-conteudo {
+    padding: 20px; }
+
+p {
+  letter-spacing: 0.2px;
+  font-family: 'Calibri';
+  font-weight: 400;
+  line-height: 1.5;
+  color: #808080; }
+
+input[type="button"] {
+  letter-spacing: 0.2px;
+  font-family: 'Calibri';
+  font-weight: 400;
+  line-height: 1.5;
+  background: #3E4FB2;
+  margin: 0 20px 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  min-width: 80px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.6), 0 -1px #53BFFF; }
+
+/*# sourceMappingURL=style.css.map */

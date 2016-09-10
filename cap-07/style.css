@@ -1,0 +1,121 @@
+body {
+  padding: 25px;
+  font-family: Calibri; }
+
+h4 {
+  margin-top: 40px;
+  margin-bottom: 10px; }
+
+.funcao {
+  display: inline-flex; }
+  .funcao div {
+    width: 130px;
+    height: 45px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin-left: 2px; }
+    .funcao div span {
+      background-color: #FFFFFF;
+      height: 20px;
+      padding: 3px;
+      border-radius: 2px; }
+
+.corBase {
+  background-color: #AD141E; }
+
+.corSecundaria {
+  background-color: #0750E1; }
+
+.rgba75 {
+  background-color: rgba(173, 20, 30, 0.75); }
+
+.rgba50 {
+  background-color: rgba(173, 20, 30, 0.5); }
+
+.rgba25 {
+  background-color: rgba(173, 20, 30, 0.25); }
+
+.mix {
+  background-color: #5a3280; }
+
+.mix70 {
+  background-color: #7b2659; }
+
+.lighten10 {
+  background-color: #db1926; }
+
+.lighten20 {
+  background-color: #e93e49; }
+
+.lighten30 {
+  background-color: #ee6c74; }
+
+.darken10 {
+  background-color: #7f0f16; }
+
+.darken20 {
+  background-color: #52090e; }
+
+.darken30 {
+  background-color: #240406; }
+
+.invert {
+  background-color: #52ebe1; }
+
+.complement {
+  background-color: #14ada3; }
+
+.corBaseSat {
+  background-color: #655C5D; }
+
+.saturate25 {
+  background-color: #7d444a; }
+
+.saturate50 {
+  background-color: #952c37; }
+
+.saturate75 {
+  background-color: #ad1425; }
+
+.desaturate25 {
+  background-color: #952c33; }
+
+.desaturate50 {
+  background-color: #7d4448; }
+
+.desaturate75 {
+  background-color: #655c5d; }
+
+.adjusthue45 {
+  background-color: #ad7d14; }
+
+.adjusthue90 {
+  background-color: #6bad14; }
+
+.adjusthue180 {
+  background-color: #14ada3; }
+
+.transparentize30 {
+  background-color: rgba(173, 20, 30, 0.7); }
+
+.transparentize60 {
+  background-color: rgba(173, 20, 30, 0.4); }
+
+.transparentize90 {
+  background-color: rgba(173, 20, 30, 0.1); }
+
+.fadeout30 {
+  background-color: rgba(173, 20, 30, 0.7); }
+
+.fadeout60 {
+  background-color: rgba(173, 20, 30, 0.4); }
+
+.fadeout90 {
+  background-color: rgba(173, 20, 30, 0.1); }
+
+.grayscale {
+  background-color: #616161; }
+
+/*# sourceMappingURL=style.css.map */

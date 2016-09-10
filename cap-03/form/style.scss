@@ -1,0 +1,15 @@
+$colorRequired: #FF0000;
+.obrigatorio{
+	box-shadow: -2px 0px 0px 0px $colorRequired;
+	
+	&.invalido{
+		border: 1px solid $colorRequired;
+	}
+}
+
+input[type="text"]{
+	border: 1px solid #ccc {
+		top-color: #0000FF;
+	}
+}
+

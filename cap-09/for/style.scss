@@ -1,0 +1,18 @@
+@for $i from 1 through 4 {
+	.teste-#{$i} {
+		width: 50px + $i;
+	}
+}
+
+@for $i from 1 to 4 {
+	.teste-#{$i} {
+		width: 50px + $i;
+	}
+}
+
+
+@for $i from 5 to 2 {
+	.teste-#{$i} {
+		width: 50px + $i;
+	}
+}

@@ -1,0 +1,16 @@
+span {
+  background: #b3b3b3;
+  text-align: center;
+  text-indent: 20px;
+  font-family: 'Helvetica';
+  font-size: 30px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-top-style: dashed;
+  border-top-left-radius: 10px; }
+
+input[type="text"] {
+  border: 1px solid #ccc;
+    border-top-color: #0000FF; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+body {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between; }
+
+.cardInfo {
+  background: white;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  width: 600px; }
+  .cardInfo .card-titulo {
+    padding: 5px;
+    background: #3E4FB2;
+    text-align: center; }
+    .cardInfo .card-titulo h1 {
+      color: white;
+      font-size: 40px; }
+  .cardInfo .card-conteudo {
+    padding: 20px; }
+
+.cardAjuda {
+  background: white;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+  width: 360px;
+  height: 250px; }
+  .cardAjuda .card-titulo {
+    padding: 5px;
+    background: #006118;
+    text-align: center; }
+    .cardAjuda .card-titulo h1 {
+      color: white;
+      font-size: 40px; }
+  .cardAjuda .card-conteudo {
+    padding: 30px; }
+
+p {
+  letter-spacing: 0.2px;
+  font-family: 'Calibri';
+  font-weight: 400;
+  line-height: 1.5;
+  color: #808080; }
+
+input[type="button"] {
+  letter-spacing: 0.6px;
+  font-family: 'Calibri';
+  font-weight: 600;
+  line-height: 1.5;
+  background: #3E4FB2;
+  margin: 0 20px 20px;
+  padding: 5px;
+  border: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  min-width: 80px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.6), 0 -1px #53BFFF; }
+
+/*# sourceMappingURL=style.css.map */

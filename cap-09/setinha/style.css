@@ -1,0 +1,11 @@
+div {
+  border-width: 20px;
+  border-color: transparent;
+  border-style: solid;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-left-color: red;
+  border-right-width: 0; }
+
+/*# sourceMappingURL=style.css.map */

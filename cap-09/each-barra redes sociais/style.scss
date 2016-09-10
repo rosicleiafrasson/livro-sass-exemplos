@@ -1,0 +1,14 @@
+.redesSociais{
+	a{
+		display: inline-block;
+		width: 32px; 
+		height: 32px;
+	}
+}
+
+$redes: facebook, twitter, linkedin, instagram, pinterest;
+@each $rede in $redes {
+	.#{$rede}{
+		background: url("image/#{$rede}.png"); 
+	} 
+}

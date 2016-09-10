@@ -1,0 +1,46 @@
+.linha {
+  display: flex;
+  border: 1px solid #BADA55; }
+
+.painel {
+  height: 100px;
+  margin: 5px;
+  background: #BADA55; }
+
+.painel-1 {
+  flex: 1; }
+
+.painel-2 {
+  flex: 2; }
+
+.painel-3 {
+  flex: 3; }
+
+.painel-4 {
+  flex: 4; }
+
+.painel-5 {
+  flex: 5; }
+
+.painel-6 {
+  flex: 6; }
+
+.painel-7 {
+  flex: 7; }
+
+.painel-8 {
+  flex: 8; }
+
+.painel-9 {
+  flex: 9; }
+
+.painel-10 {
+  flex: 10; }
+
+.painel-11 {
+  flex: 11; }
+
+.painel-12 {
+  flex: 12; }
+
+/*# sourceMappingURL=style.css.map */

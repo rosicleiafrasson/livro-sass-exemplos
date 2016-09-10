@@ -1,0 +1,28 @@
+@mixin setinha($tamanho, $direcao, $cor){
+	border-width: $tamanho;
+	border-color: transparent;
+	border-style: solid;
+	display: inline-block;
+	height: 0;
+	width: 0;
+	
+	@if($direcao == "direita"){
+		border-left-color: $cor;
+		border-right-width: 0;
+	}@else if($direcao == "esquerda"){
+		border-right-color: $cor;
+		border-left-width: 0;
+	}@else if($direcao == "topo"){
+		border-bottom-color: $cor;
+		border-top-width: 0;
+	}@else{
+		border-top-color: $cor;
+		border-bottom-width: 0;
+	}
+}
+
+div{
+	@include setinha(20px, direita, red);
+}
+
+

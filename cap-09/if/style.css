@@ -1,0 +1,24 @@
+div {
+  display: flex; }
+
+button {
+  margin-right: 10px;
+  border: none;
+  padding: 8px;
+  min-width: 80px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px #666666; }
+  button.alerta {
+    background-color: #288014;
+    color: #FFFFFF; }
+  button.erro {
+    background-color: #C41717;
+    color: #FFFFFF; }
+  button.warning {
+    background-color: #FFFF03;
+    color: #000000; }
+
+/*# sourceMappingURL=style.css.map */

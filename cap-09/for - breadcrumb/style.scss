@@ -1,0 +1,26 @@
+$corBase: #0750E1;
+
+.menu{
+	line-height: 30px;
+	display: inline-flex;
+	border-bottom: 1px solid #ACABAE;
+	a{
+		padding: 10px 20px;
+		text-decoration: none;
+		color: #FFFFFF;
+		border-left: 1px solid #FFFFFF;
+    	font-size: 18px;
+		border-radius: 10px 10px 0 0;
+		@for $i from 1 through 5 {
+			&:nth-child(#{$i}) {
+				$corItem: adjust-hue($corBase, ($i* 22dg));
+				background: $corItem;
+				&:hover{
+					background: darken($corItem, 20%);
+				}
+
+			}
+		}
+	}
+	
+}

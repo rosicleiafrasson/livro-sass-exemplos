@@ -1,0 +1,18 @@
+.linha{
+	display: flex;
+	border: 1px solid #BADA55;
+}
+
+.painel{
+	height: 100px;
+	margin: 5px;
+	background: #BADA55;
+}
+
+$i: 1;
+@while($i <= 12){
+	.painel-#{$i}{
+		flex: $i;
+	}
+	$i: $i + 1;
+}

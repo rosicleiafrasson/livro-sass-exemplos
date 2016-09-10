@@ -1,0 +1,137 @@
+$corBase: #AD141E;
+$corSecundaria: #0750E1;
+$corBaseSat: #655C5D;
+
+body{
+	padding: 25px;
+	font-family: Calibri;
+}
+
+h4{
+	margin-top: 40px;
+    margin-bottom: 10px;
+}
+.funcao{
+	display: inline-flex;
+	div{
+		width: 130px;
+		height: 45px;
+		padding-top: 20px;
+		display: flex;
+    	justify-content: center;
+		border-radius: 4px;
+		margin-left: 2px;
+		
+		
+		span{
+			background-color: #FFFFFF;
+			height: 20px;
+    		padding: 3px;
+			border-radius: 2px;
+		}
+	}
+}
+
+.corBase{
+	background-color: $corBase;
+}
+.corSecundaria{
+	background-color: $corSecundaria;
+}
+.rgba75{
+	background-color: rgba($corBase, .75);
+}
+.rgba50{
+	background-color: rgba($corBase, .50);
+}
+.rgba25{
+	background-color:rgba($corBase, .25);
+}
+.mix{
+	background-color: mix($corBase, $corSecundaria);
+}
+.mix70{
+	background-color: mix($corBase, $corSecundaria, 70%);
+}
+.lighten10{
+	background-color: lighten($corBase, 10%);
+}
+.lighten20{
+	background-color: lighten($corBase, 20%);
+}
+.lighten30{
+	background-color: lighten($corBase, 30%);
+}
+
+.darken10{
+	background-color: darken($corBase, 10%);
+}
+.darken20{
+	background-color: darken($corBase, 20%);
+}
+.darken30{
+	background-color: darken($corBase, 30%);
+}
+.invert{
+	background-color: invert($corBase);
+}
+.complement{
+	background-color: complement($corBase);
+}
+.corBaseSat{
+	background-color: $corBaseSat;
+}
+.saturate25{
+	background-color: saturate($corBaseSat, 25%);
+}
+.saturate50{
+	background-color: saturate($corBaseSat, 50%);
+}
+.saturate75{
+	background-color: saturate($corBaseSat, 75%);
+}
+.desaturate25{
+	background-color: desaturate($corBase, 25%);
+}
+.desaturate50{
+	background-color: desaturate($corBase, 50%);
+}
+.desaturate75{
+	background-color: desaturate($corBase, 75%);
+}
+.adjusthue45{
+	background-color: adjust-hue($corBase, 45deg);
+}
+.adjusthue90{
+	background-color: adjust-hue($corBase, 90deg);
+}
+.adjusthue180{
+	background-color: adjust-hue($corBase, 180deg);
+}
+.transparentize30{
+	background-color: transparentize($corBase, .3);
+}
+.transparentize60{
+	background-color: transparentize($corBase, .6);
+}
+.transparentize90{
+	background-color: transparentize($corBase, .9);
+}
+.fadeout30{
+	background-color: fade-out($corBase, .3);
+}
+.fadeout60{
+	background-color: fade-out($corBase, .6);
+}
+.fadeout90{
+	background-color: fade-out($corBase, .9);
+}
+.grayscale{
+	background-color: grayscale($corBase);
+}
+
+
+
+
+
+

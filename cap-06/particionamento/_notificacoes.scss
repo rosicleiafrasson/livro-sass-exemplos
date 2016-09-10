@@ -1,0 +1,39 @@
+%alerta{
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 0 0 8px rgba(0,0,0,.3);
+	border-left-width: 8px;
+	border-left-style: solid;
+	border-radius: 5px;
+}
+
+.alertaErro{
+	@extend %alerta;
+	background-color: tomato;
+	color: #FFFFFF;
+	border-left-color: #DC3D21	
+}
+
+.alertaWarning{
+	@extend %alerta;
+	background-color: #EAAF51;
+	color: #6B6D31;
+	border-left-color: #DF8B00;
+}
+
+.alertaSucesso{
+	@extend %alerta;
+	background-color: #61B832;
+	color: #296829;
+	border-left-color: #55A12C;
+}
+
+.alertaInfo{
+	@extend %alerta;
+	background-color: #4EA5CD;
+	color: #BEECFC;
+	border-left-color: #3B8EB5;
+}
+
+

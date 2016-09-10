@@ -1,0 +1,21 @@
+.redesSociais a {
+  display: inline-block;
+  width: 32px;
+  height: 32px; }
+
+.facebook {
+  background: url("image/facebook.png"); }
+
+.twitter {
+  background: url("image/twitter.png"); }
+
+.linkedin {
+  background: url("image/linkedin.png"); }
+
+.instagram {
+  background: url("image/instagram.png"); }
+
+.pinterest {
+  background: url("image/pinterest.png"); }
+
+/*# sourceMappingURL=style.css.map */

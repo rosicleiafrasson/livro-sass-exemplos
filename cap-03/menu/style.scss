@@ -1,0 +1,26 @@
+.menuSuperior{
+    padding-top: 40px;
+    ul {
+        margin:0;
+        padding:0;
+        list-style-type: none;
+        text-align: center;
+        li {
+            display: inline;
+            a {
+                text-decoration: none;
+                text-decoration: none;
+                padding: 10px 30px;
+                color: #FFFFFF;
+                background-color: #1C1C1C;
+                font-size:18px;
+				&:hover {
+                    background-color:#999999;
+                    color:#000000;
+                    box-shadow: 0 5px 10px #CCC;
+                    text-shadow: 1px 1px 1px #CCC;
+                }
+            }
+        }
+    }
+}

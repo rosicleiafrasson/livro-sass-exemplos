@@ -1,0 +1,12 @@
+.conteudo {
+  border-radius: 4px;
+  background-color: azure;
+  padding: 10px; }
+  .conteudo h2 {
+    font-family: 'Arial';
+    color: dimgrey; }
+    .conteudo h2 ~ p {
+      font-size: 18px;
+      color: #999999; }
+
+/*# sourceMappingURL=style.css.map */

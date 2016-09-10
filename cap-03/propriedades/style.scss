@@ -1,0 +1,33 @@
+span{
+	background: #b3b3b3;
+	text:{
+		align:center;
+		indent: 20px;
+	}
+	
+	font:{
+		family: 'Helvetica';
+		size: 30px;
+	}
+	
+	$padding: 20px;
+	padding: {
+		left: $padding;
+		bottom: $padding / 2;
+	}
+	
+	border:{
+		top:{
+			style:dashed;
+			left:{
+				radius: 10px;
+			}
+		}
+	}
+}
+
+input[type="text"]{
+	border: 1px solid #ccc {
+		top-color: #0000FF;
+	}
+}

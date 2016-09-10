@@ -1,0 +1,23 @@
+body {
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 30px; }
+
+.card {
+  background: white;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  width: 400px; }
+  .card-titulo {
+    padding: 5px;
+    color: white;
+    background: #3E4FB2;
+    font-family: Calibri;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center; }
+  .card-conteudo {
+    color: #777;
+    padding: 20px;
+    line-height: 1.5; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+body{
+	.conteudo{
+		width: 860px;
+		border: 1px dashed;
+		height:200px;
+	}
+}
+
+.col{
+	width: 200px;
+	height: 200px;
+	float:left;
+	background: #00FF00;
+	&+&{
+		margin-left: 20px;
+	}
+}

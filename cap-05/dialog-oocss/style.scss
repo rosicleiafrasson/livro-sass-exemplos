@@ -1,0 +1,42 @@
+.botao{
+	border:none;
+	padding: 8px;
+	min-width: 80px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px; 
+	margin: 4px;
+	border-radius: 4px;
+}
+
+.fundoPadrao{
+	background-color: #CACACA;
+}
+
+.fundoAzul{
+	background: linear-gradient(to bottom,  #0f204b 0%,#0066a1 80%,#53a7d9 100%);
+	color: #FFFFFF;
+}
+
+.dialog{
+	height: 200px;
+	width: 450px;
+	box-shadow: 0 0 10px rgba(#000000, .3);
+	font-family: Calibri;
+	
+	.cabecalho{
+		padding: 20px 10px;
+    	font-size: 25px;
+	}
+	.conteudo{
+		padding: 10px;
+	}
+	
+	.rodape{
+		padding: 10px;
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+
